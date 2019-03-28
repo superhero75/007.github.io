@@ -1,0 +1,26 @@
+/*==================================================================================
+    Custom Stylesheet (Any custom styling you want to apply should be defined here).
+====================================================================================*/
+
+.tophead {
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+    color: #000!important;
+    background-color: #f1f1f1!important;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  #section1 {
+    height: 600px;
+    background-color: pink;
+  }
+  
+  #section2 {
+    height: 600px;
+    background-color: yellow;
+  }
