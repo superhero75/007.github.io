@@ -2,6 +2,15 @@
     Custom Stylesheet (Any custom styling you want to apply should be defined here).
 ====================================================================================*/
 
+.main-header{
+  position: relative;
+  z-index: 999;
+  -webkit-transition: all .2s;
+          transition: all .2s;
+  padding: 2px;
+  background-color: transparent;
+}
+
 .tophead {
     padding-top: 2px !important;
     padding-bottom: 2px !important;
