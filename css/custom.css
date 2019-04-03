@@ -24,3 +24,10 @@ html {
     height: 600px;
     background-color: yellow;
   }
+
+.section-gradient {
+  background-image: url(../img/banner-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
