@@ -35,8 +35,95 @@ html {
   }
 
 .section-gradient {
-  background-image: url(../img/banner-image.jpg);
+  background-image: url(../img/main.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 
+}
+.main-banner {
+  min-height: 1000px;
+}
+
+
+.banner-content h2 {
+  color: #9b1c31;
+  font-size: 60px;
+}
+.banner-content p {
+  color: #9b1c31;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.banner-shape.shape_1 {
+  background-image: url(../img/home/left_shape.png);
+  background-position: top right;
+}
+.banner-shape.shape_2 {
+  background-image: url(../img/home/right_shape.png);
+  background-position: top right;
+  background-position: bottom left;
+}
+.light-version .section-title h2 {
+  color: #9b1c31;
+  font-weight: 600;
+}
+
+.header-menu > ul > li > a {
+  padding: 6px 0;
+  color: #9b1c31;
+  line-height: 38px;
+}
+.single-why-choose.light {
+  box-shadow: 0 6px 16px rgba(0,0,0,.1);
+  background-color: #9b1c31;
+}
+.single_pricing_table.light,.single_pricing_table.light .btn {
+  border-color: #9b1c31;
+  color: #535353;
+}
+.feature-style--2.light {
+  background-color: #fff;
+  box-shadow: 0 6px 16px rgba(0,0,0,.1);
+  color: #9b1c31;
+  font-weight: 600;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.btn-primary,
+.btn-primary:focus, 
+.btn-primary.focus,
+.btn-primary.disabled, 
+.btn-primary:disabled,
+.btn-primary:not(:disabled):not(.disabled):active, 
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle,
+.btn-primary:not(:disabled):not(.disabled):active:focus, 
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    color: #fff;
+    background-color: #9b1c31;
+    border-color: #fff;
+    box-shadow: none;
+}
+.pricing-filter .pricing_nav .nav-item a.active:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #9b1c31;
+  content: '';
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.single_pricing_table.light .pt_header .pt_price {
+  background-color: #9b1c31;
+  color: #fff;
+}
+.footer-gradient {
+  background: #9b1c31;
+  background-image: url(../img/home-3/footer-pattern.png);
+  background-image: url(../img/home-3/footer-pattern.png), -webkit-linear-gradient(top, #9b1c31 0%,#9b1c31 100%);
+  background-image: url(../img/home-3/footer-pattern.png), -webkit-linear-gradient(top, #9b1c31 0%,#9b1c31, #9b1c31 100%);
+  background-image: url(../img/home-3/footer-pattern.png), linear-gradient(to right bottom, #9b1c31 0%,#9b1c31, #9b1c31 100%);
 }
